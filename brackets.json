@@ -1,0 +1,750 @@
+{
+  "themes.theme": "peterbanjo.serengeti",
+  "fonts.fontSize": "16px",
+  "denniskehrig.ShowWhitespace.checked": true,
+  "useTabChar": false,
+  "com.github.dsbonev.WhitespaceNormalizer.enabled": true,
+  "tabSize": 2,
+  "spaceUnits": 2,
+  "softTabs": true,
+  "wordWrap": "true",
+  "closeBrackets": true,
+  "styleActiveLine": true,
+  "me.drewh.jsbeautify.on_save": true,
+  "linting.collapsed": true,
+  "hirse.outline.enabled": false,
+  "com.github.dsbonev.WhitespaceNormalizer.trim": "true",
+  "com.github.dsbonev.WhitespaceNormalizer.transf": "true",
+  "com.github.dsbonev.WhitespaceNormalizer.eofnl": "true",
+  "brackets-git.gitPath": "git",
+  "brackets-git.stripWhitespaceFromCommits": true,
+  "brackets-git.addEndlineToTheEndOfFile": true,
+  "brackets-git.removeByteOrderMark": false,
+  "brackets-git.normalizeLineEndings": false,
+  "brackets-git.useGitGutter": true,
+  "brackets-git.markModifiedInTree": true,
+  "brackets-git.showBashButton": true,
+  "brackets-git.showReportBugButton": true,
+  "brackets-git.useCodeInspection": true,
+  "brackets-git.useGitFtp": false,
+  "brackets-git.useVerboseDiff": false,
+  "brackets-git.useDifftool": false,
+  "brackets-git.showTerminalIcon": false,
+  "brackets-git.clearWhitespaceOnSave": false,
+  "brackets-git.avatarType": "PICTURE",
+  "brackets-git.dateMode": 1,
+  "brackets-git.dateFormat": null,
+  "brackets-git.enableAdvancedFeatures": false,
+  "brackets-git.panelShortcut": "Ctrl-Alt-G",
+  "brackets-git.commitCurrentShortcut": null,
+  "brackets-git.commitAllShortcut": "Ctrl-Alt-C",
+  "brackets-git.bashShortcut": null,
+  "brackets-git.pushShortcut": "Ctrl-Alt-P",
+  "brackets-git.pullShortcut": "Ctrl-Alt-Shift-P",
+  "brackets-git.gotoPrevChangeShortcut": null,
+  "brackets-git.gotoNextChangeShortcut": null,
+  "brackets-git.terminalCommand": null,
+  "brackets-git.terminalCommandArgs": null,
+  "brackets-git.debugMode": false,
+  "ovk.simple-todo.enabled": false,
+  "dnbard.documents-toolbar.icons": true,
+  "dnbard.documents-toolbar.smallIcons": false,
+  "dnbard.documents-toolbar.tooltip": false,
+  "dnbard.documents-toolbar.close_left": false,
+  "dnbard.documents-toolbar.workingFiles": true,
+  "dnbard.documents-toolbar.brackets_font": true,
+  "dnbard.documents-toolbar.grayscaleIcons": false,
+  "code-folding.folds": {},
+  "open.in.browser.extensionFile": [
+        "htm",
+        "html",
+        "jpg",
+        "jpeg",
+        "gif",
+        "png",
+        "ico"
+    ],
+  "avril.history.items": 5,
+  "avril.history.excludeItems": [
+        "thumb",
+        "thumbnails"
+    ],
+  "avril.history.inWorking": false,
+  "hirse.outline.sidebar": false,
+  "brackets-indent-guides.enabled": true,
+  "brackets-css-color-preview.enabled": true,
+  "bracket-match-highlighter.enabled": false,
+  "fonts.fontFamily": "'Fira Mono for Powerline', 'SourceCodePro-Medium', 'MS Gothic', monospace",
+  "mikaeljorhult.bracketsAutoprefixer.enabled": true,
+  "edc.brackets-snippets.hints": [
+    {
+      "trigger": "cl",
+      "scope": "javascript",
+      "description": "console.log",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "console.log(${1:obj});${2}",
+      "source": "system"
+        },
+    {
+      "trigger": "cd",
+      "scope": "javascript",
+      "description": "console.dir",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "console.dir(${1:obj});${2}",
+      "source": "system"
+        },
+    {
+      "trigger": "ce",
+      "scope": "javascript",
+      "description": "console.error",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "console.error(${1:obj});${2}",
+      "source": "system"
+        },
+    {
+      "trigger": "cll",
+      "scope": "javascript",
+      "description": "console.log",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "console.log('${1:obj}:', ${1:obj});${2}",
+      "source": "system"
+        },
+    {
+      "trigger": "cdd",
+      "scope": "javascript",
+      "description": "console.dir",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "console.dir('${1:obj}:', ${1:obj});${2}",
+      "source": "system"
+        },
+    {
+      "trigger": "cee",
+      "scope": "javascript",
+      "description": "console.error",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "console.error('${1:obj}:', ${1:obj});${2}",
+      "source": "system"
+        },
+    {
+      "trigger": "ae",
+      "scope": "javascript",
+      "description": "document.addEventListener",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "${1:document}.addEventListener('${2:event}', function(e) {\n  ${3}\n});",
+      "source": "system"
+        },
+    {
+      "trigger": "ac",
+      "scope": "javascript",
+      "description": "document.appendChild",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "${1:document}.appendChild(${2:elem});${3}",
+      "source": "system"
+        },
+    {
+      "trigger": "rc",
+      "scope": "javascript",
+      "description": "document.removeChild",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "${1:document}.removeChild(${2:elem});${3}",
+      "source": "system"
+        },
+    {
+      "trigger": "cel",
+      "scope": "javascript",
+      "description": "document.createElement",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "${1:document}.createElement(${2:elem});${3}",
+      "source": "system"
+        },
+    {
+      "trigger": "gi",
+      "scope": "javascript",
+      "description": "document.getElementById",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "${1:document}.getElementById('${2:id}');${3}",
+      "source": "system"
+        },
+    {
+      "trigger": "gc",
+      "scope": "javascript",
+      "description": "document.getElementsByClassName",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "${1:document}.getElementsByClassName('${2:class}');${3}",
+      "source": "system"
+        },
+    {
+      "trigger": "gt",
+      "scope": "javascript",
+      "description": "document.getElementsByTagName",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "${1:document}.getElementsByTagName('${2:tag}');${3}",
+      "source": "system"
+        },
+    {
+      "trigger": "qs",
+      "scope": "javascript",
+      "description": "document.querySelector",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "${1:document}.querySelector('${2:selector}');${3}",
+      "source": "system"
+        },
+    {
+      "trigger": "qsa",
+      "scope": "javascript",
+      "description": "document.querySelectorAll",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "${1:document}.querySelectorAll('${2:selector}');${3}",
+      "source": "system"
+        },
+    {
+      "trigger": "fe",
+      "scope": "javascript",
+      "description": "forEach",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "${1:myArray}.forEach(function (${2:elem}) {\n  ${3}\n});",
+      "source": "system"
+        },
+    {
+      "trigger": "fi",
+      "scope": "javascript",
+      "description": "for in",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "for (${1:prop} in ${2:obj}) {\n  if (${2:obj}.hasOwnProperty(${1:prop})) {\n    ${3}\n  }\n}",
+      "source": "system"
+        },
+    {
+      "trigger": "fn",
+      "scope": "javascript",
+      "description": "function",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "function ${1:methodName} (${2:arguments}) {\n  ${3}\n}",
+      "source": "system"
+        },
+    {
+      "trigger": "afn",
+      "scope": "javascript",
+      "description": "anonymous function",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "function (${1:arguments}) {\n  ${2}\n}",
+      "source": "system"
+        },
+    {
+      "trigger": "pr",
+      "scope": "javascript",
+      "description": "prototype",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "${1:ClassName}.prototype.${2:methodName} = function (${3:arguments}) {\n  ${4}\n};",
+      "source": "system"
+        },
+    {
+      "trigger": "sw",
+      "scope": "javascript",
+      "description": "switch statement",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "switch(${1:expression}) {\n  case ${2:value}:\n    ${3}\n    break;\n  default:\n    break;\n}",
+      "source": "system"
+        },
+    {
+      "trigger": "si",
+      "scope": "javascript",
+      "description": "setInterval",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "setInterval(function() {\n  ${2}\n}, ${1:delay});",
+      "source": "system"
+        },
+    {
+      "trigger": "st",
+      "scope": "javascript",
+      "description": "setTimeout",
+      "tag": "VanillaJS",
+      "tagHide": true,
+      "text": "setTimeout(function() {\n  ${2}\n}, ${1:delay});",
+      "source": "system"
+        },
+    {
+      "trigger": "?if",
+      "description": "PHP conditional if",
+      "scope": "php",
+      "text": "<?php if (${1:obj}) : ?>\n<?php endif; ?>",
+      "mTime": 1447071179380
+        }
+    ],
+  "sacah.keyremapper.loadremapperdialog.keymap": {
+    "navigate.toggleQuickEdit": {
+      "commandID": "navigate.toggleQuickEdit",
+      "key": "Cmd-E"
+    },
+    "navigate.toggleQuickDocs": {
+      "commandID": "navigate.toggleQuickDocs",
+      "key": "Cmd-K"
+    },
+    "navigate.jumptoDefinition": {
+      "commandID": "navigate.jumptoDefinition",
+      "key": "Cmd-J"
+    },
+    "file.openFolder": {
+      "commandID": "file.openFolder",
+      "key": "Alt-Cmd-O"
+    },
+    "view.increaseFontSize": {
+      "commandID": "view.increaseFontSize",
+      "key": "Cmd-+"
+    },
+    "view.decreaseFontSize": {
+      "commandID": "view.decreaseFontSize",
+      "key": "Cmd--"
+    },
+    "view.restoreFontSize": {
+      "commandID": "view.restoreFontSize",
+      "key": "Cmd-0"
+    },
+    "io.emmet.increment_number_by_10": {
+      "commandID": "io.emmet.increment_number_by_10",
+      "key": "Alt-Cmd-Up"
+    },
+    "io.emmet.decrement_number_by_10": {
+      "commandID": "io.emmet.decrement_number_by_10",
+      "key": "Alt-Cmd-Down"
+    },
+    "navigate.newRule": {
+      "commandID": "navigate.newRule",
+      "key": "Alt-Cmd-N"
+    },
+    "navigate.gotoDefinition": {
+      "commandID": "navigate.gotoDefinition",
+      "key": "Cmd-T"
+    },
+    "navigate.gotoLine": {
+      "commandID": "navigate.gotoLine",
+      "explicitPlaform": "mac",
+      "key": "Cmd-L"
+    },
+    "view.toggleSidebar": {
+      "commandID": "view.toggleSidebar",
+      "explicitPlaform": "mac",
+      "key": "Shift-Cmd-H"
+    },
+    "file.liveFilePreview": {
+      "commandID": "file.liveFilePreview",
+      "key": "Alt-Cmd-P"
+    },
+    "file.previewHighlight": {
+      "commandID": "file.previewHighlight",
+      "key": "Shift-Cmd-C"
+    },
+    "file.reloadLivePreview": {
+      "commandID": "file.reloadLivePreview",
+      "key": "Shift-Cmd-R"
+    },
+    "edit.indent": {
+      "commandID": "edit.indent",
+      "key": "Cmd-]"
+    },
+    "edit.unindent": {
+      "commandID": "edit.unindent",
+      "key": "Cmd-["
+    },
+    "edit.lineComment": {
+      "commandID": "edit.lineComment",
+      "key": "Cmd-/"
+    },
+    "edit.blockComment": {
+      "commandID": "edit.blockComment",
+      "explicitPlaform": "mac",
+      "key": "Alt-Cmd-/"
+    },
+    "edit.duplicate": {
+      "commandID": "edit.duplicate",
+      "key": "Cmd-D"
+    },
+    "edit.openLineAbove": {
+      "commandID": "edit.openLineAbove",
+      "key": "Shift-Cmd-Enter"
+    },
+    "edit.openLineBelow": {
+      "commandID": "edit.openLineBelow",
+      "key": "Cmd-Enter"
+    },
+    "edit.splitSelIntoLines": {
+      "commandID": "edit.splitSelIntoLines",
+      "key": "Alt-Cmd-L"
+    },
+    "edit.addCursorToNextLine": {
+      "commandID": "edit.addCursorToNextLine",
+      "key": "Alt-Shift-Down"
+    },
+    "edit.addCursorToPrevLine": {
+      "commandID": "edit.addCursorToPrevLine",
+      "key": "Alt-Shift-Up"
+    },
+    "edit.undo": {
+      "commandID": "edit.undo",
+      "key": "Cmd-Z"
+    },
+    "edit.redo": {
+      "commandID": "edit.redo",
+      "explicitPlaform": "mac",
+      "key": "Shift-Cmd-Z"
+    },
+    "edit.cut": {
+      "commandID": "edit.cut",
+      "key": "Cmd-X"
+    },
+    "edit.copy": {
+      "commandID": "edit.copy",
+      "key": "Cmd-C"
+    },
+    "edit.paste": {
+      "commandID": "edit.paste",
+      "key": "Cmd-V"
+    },
+    "edit.selectAll": {
+      "commandID": "edit.selectAll",
+      "key": "Cmd-A"
+    },
+    "help.support": {
+      "commandID": "help.support",
+      "key": "F1"
+    },
+    "cmd.findInFiles": {
+      "commandID": "cmd.findInFiles",
+      "key": "Shift-Cmd-F"
+    },
+    "cmd.replaceInFiles": {
+      "commandID": "cmd.replaceInFiles",
+      "explicitPlaform": "mac",
+      "key": "Alt-Shift-Cmd-F"
+    },
+    "cmd.find": {
+      "commandID": "cmd.find",
+      "key": "Cmd-F"
+    },
+    "cmd.findNext": {
+      "commandID": "cmd.findNext",
+      "explicitPlaform": "mac",
+      "key": "Cmd-G"
+    },
+    "cmd.replace": {
+      "commandID": "cmd.replace",
+      "explicitPlaform": "mac",
+      "key": "Alt-Cmd-F"
+    },
+    "cmd.findPrevious": {
+      "commandID": "cmd.findPrevious",
+      "explicitPlaform": "mac",
+      "key": "Shift-Cmd-G"
+    },
+    "cmd.addNextMatch": {
+      "commandID": "cmd.addNextMatch",
+      "key": "Cmd-B"
+    },
+    "cmd.skipCurrentMatch": {
+      "commandID": "cmd.skipCurrentMatch",
+      "key": "Shift-Cmd-B"
+    },
+    "edit.showCodeHints": {
+      "commandID": "edit.showCodeHints",
+      "explicitPlaform": "mac",
+      "key": "Ctrl-Space"
+    },
+    "navigate.gotoFirstProblem": {
+      "commandID": "navigate.gotoFirstProblem",
+      "explicitPlaform": "mac",
+      "key": "Cmd-'"
+    },
+    "file.open": {
+      "commandID": "file.open",
+      "key": "Cmd-O"
+    },
+    "file.newDoc": {
+      "commandID": "file.newDoc",
+      "key": "Cmd-N"
+    },
+    "file.save": {
+      "commandID": "file.save",
+      "key": "Cmd-S"
+    },
+    "file.saveAll": {
+      "commandID": "file.saveAll",
+      "key": "Alt-Cmd-S"
+    },
+    "file.saveAs": {
+      "commandID": "file.saveAs",
+      "key": "Shift-Cmd-S"
+    },
+    "file.rename": {
+      "commandID": "file.rename",
+      "key": "F2"
+    },
+    "file.close": {
+      "commandID": "file.close",
+      "key": "Cmd-W"
+    },
+    "file.close_all": {
+      "commandID": "file.close_all",
+      "key": "Shift-Cmd-W"
+    },
+    "navigate.nextDocListOrder": {
+      "commandID": "navigate.nextDocListOrder",
+      "key": "Cmd-PageDown"
+    },
+    "navigate.prevDocListOrder": {
+      "commandID": "navigate.prevDocListOrder",
+      "key": "Cmd-PageUp"
+    },
+    "file.quit": {
+      "commandID": "file.quit",
+      "key": "Cmd-Q"
+    },
+    "view.togglePureCode": {
+      "commandID": "view.togglePureCode",
+      "explicitPlaform": "mac",
+      "key": "Shift-Cmd-2"
+    },
+    "view.togglePanels": {
+      "commandID": "view.togglePanels",
+      "explicitPlaform": "mac",
+      "key": "Shift-Cmd-`"
+    },
+    "debug.showDeveloperTools": {
+      "commandID": "debug.showDeveloperTools",
+      "explicitPlaform": "mac",
+      "key": "Alt-Cmd-I"
+    },
+    "debug.refreshWindow": {
+      "commandID": "debug.refreshWindow",
+      "explicitPlaform": "mac",
+      "key": "Cmd-R"
+    },
+    "codefolding.collapse.all": {
+      "commandID": "codefolding.collapse.all",
+      "explicitPlaform": "mac",
+      "key": "Cmd-1"
+    },
+    "codefolding.expand.all": {
+      "commandID": "codefolding.expand.all",
+      "explicitPlaform": "mac",
+      "key": "Shift-Cmd-1"
+    },
+    "codefolding.collapse": {
+      "commandID": "codefolding.collapse",
+      "key": "Alt-Cmd-["
+    },
+    "codefolding.expand": {
+      "commandID": "codefolding.expand",
+      "key": "Alt-Cmd-]"
+    },
+    "recentProjects.toggle": {
+      "commandID": "recentProjects.toggle",
+      "key": "Alt-Cmd-R"
+    },
+    "denniskehrig.ShowWhitespace.toggle": {
+      "commandID": "denniskehrig.ShowWhitespace.toggle",
+      "key": "Alt-Cmd-W"
+    },
+    "me.drewh.jsbeautify": {
+      "commandID": "me.drewh.jsbeautify",
+      "explicitPlaform": "mac",
+      "key": "Shift-Cmd-L"
+    },
+    "showParameterHint": {
+      "commandID": "showParameterHint",
+      "explicitPlaform": "mac",
+      "key": "Ctrl-Shift-Space"
+    },
+    "io.emmet.prev_edit_point": {
+      "commandID": "io.emmet.prev_edit_point",
+      "key": "Alt-Cmd-Left"
+    },
+    "io.emmet.next_edit_point": {
+      "commandID": "io.emmet.next_edit_point",
+      "key": "Alt-Cmd-Right"
+    },
+    "io.emmet.evaluate_math_expression": {
+      "commandID": "io.emmet.evaluate_math_expression",
+      "key": "Shift-Cmd-Y"
+    },
+    "io.emmet.expand_abbreviation_with_tab": {
+      "commandID": "io.emmet.expand_abbreviation_with_tab",
+      "key": "Tab"
+    },
+    "io.emmet.expand_abbreviation": {
+      "commandID": "io.emmet.expand_abbreviation",
+      "key": "Alt-Cmd-Enter"
+    },
+    "io.emmet.insert_formatted_line_break": {
+      "commandID": "io.emmet.insert_formatted_line_break",
+      "key": "Enter"
+    },
+    "io.emmet.balance_inward": {
+      "commandID": "io.emmet.balance_inward",
+      "key": "Alt-Shift-Cmd-B"
+    },
+    "io.emmet.balance_outward": {
+      "commandID": "io.emmet.balance_outward",
+      "key": "Alt-Cmd-B"
+    },
+    "io.emmet.matching_pair": {
+      "commandID": "io.emmet.matching_pair",
+      "key": "Shift-Cmd-T"
+    },
+    "io.emmet.merge_lines": {
+      "commandID": "io.emmet.merge_lines",
+      "key": "Shift-Cmd-M"
+    },
+    "io.emmet.reflect_css_value": {
+      "commandID": "io.emmet.reflect_css_value",
+      "key": "Alt-Shift-Cmd-R"
+    },
+    "io.emmet.select_next_item": {
+      "commandID": "io.emmet.select_next_item",
+      "key": "Shift-Cmd-."
+    },
+    "io.emmet.select_previous_item": {
+      "commandID": "io.emmet.select_previous_item",
+      "key": "Shift-Cmd-,"
+    },
+    "io.emmet.split_join_tag": {
+      "commandID": "io.emmet.split_join_tag",
+      "key": "Shift-Cmd-J"
+    },
+    "io.emmet.wrap_with_abbreviation": {
+      "commandID": "io.emmet.wrap_with_abbreviation",
+      "key": "Shift-Cmd-A"
+    },
+    "io.emmet.update_tag": {
+      "commandID": "io.emmet.update_tag",
+      "key": "Shift-Cmd-I"
+    },
+    "io.emmet.increment_number_by_1": {
+      "commandID": "io.emmet.increment_number_by_1",
+      "key": "Shift-Cmd-Up"
+    },
+    "io.emmet.decrement_number_by_1": {
+      "commandID": "io.emmet.decrement_number_by_1",
+      "key": "Shift-Cmd-Down"
+    },
+    "io.emmet.increment_number_by_01": {
+      "commandID": "io.emmet.increment_number_by_01",
+      "key": "Alt-Shift-Cmd-Up"
+    },
+    "io.emmet.decrement_number_by_01": {
+      "commandID": "io.emmet.decrement_number_by_01",
+      "key": "Alt-Shift-Cmd-Down"
+    },
+    "io.emmet.interactive_expand_abbreviation": {
+      "commandID": "io.emmet.interactive_expand_abbreviation",
+      "key": "Alt-Shift-Cmd-Enter"
+    },
+    "brackets.swatcher": {
+      "commandID": "brackets.swatcher",
+      "key": "F11"
+    },
+    "redmunds.show-shortcuts.view.shortcuts": {
+      "commandID": "redmunds.show-shortcuts.view.shortcuts",
+      "explicitPlatform": "mac",
+      "key": "Ctrl-Alt-/"
+    },
+    "navigate.previousMatch": {
+      "commandID": "navigate.previousMatch",
+      "key": "Alt-Up"
+    },
+    "navigate.nextMatch": {
+      "commandID": "navigate.nextMatch",
+      "key": "Alt-Down"
+    },
+    "edit.lineUp": {
+      "commandID": "edit.lineUp",
+      "explicitPlaform": "mac",
+      "key": "Ctrl-Cmd-Up"
+    },
+    "edit.lineDown": {
+      "commandID": "edit.lineDown",
+      "explicitPlaform": "mac",
+      "key": "Ctrl-Cmd-Down"
+    },
+    "cmd.splitViewNone": {
+      "commandID": "cmd.splitViewNone",
+      "key": "Alt-Cmd-\\"
+    },
+    "io.emmet.toggle_comment": {
+      "commandID": "io.emmet.toggle_comment",
+      "key": "Cmd-\\"
+    },
+    "navigate.quickOpen": {
+      "commandID": "navigate.quickOpen",
+      "key": "Shift-Cmd-O"
+    },
+    "navigate.nextDoc": {
+      "commandID": "navigate.nextDoc",
+      "explicitPlaform": "mac",
+      "key": "Shift-Cmd-]"
+    },
+    "navigate.prevDoc": {
+      "commandID": "navigate.prevDoc",
+      "explicitPlaform": "mac",
+      "key": "Shift-Cmd-["
+    },
+    "io.emmet.remove_tag": {
+      "commandID": "io.emmet.remove_tag",
+      "key": "Shift-Cmd-K"
+    },
+    "edit.deletelines": {
+      "commandID": "edit.deletelines",
+      "key": "Shift-Cmd-D"
+    },
+    "pflynn.searchCommands": {
+      "commandID": "pflynn.searchCommands",
+      "explicitPlaform": "mac",
+      "key": "Cmd-Shift-P"
+    },
+    "view.scrollLineUp": {
+      "commandID": "view.scrollLineUp",
+      "explicitPlaform": "mac",
+      "key": "Ctrl-Alt-Up"
+    },
+    "view.scrollLineDown": {
+      "commandID": "view.scrollLineDown",
+      "explicitPlaform": "mac",
+      "key": "Ctrl-Alt-Down"
+    },
+    "edit.selectLine": {
+      "commandID": "edit.selectLine",
+      "explicitPlaform": "mac",
+      "key": "Ctrl-L"
+    },
+    "cmd.findAllAndSelect": {
+      "commandID": "cmd.findAllAndSelect",
+      "explicitPlaform": "mac",
+      "key": "Ctrl-Cmd-G"
+    },
+    "debug.reloadWithoutUserExts": {
+      "commandID": "debug.reloadWithoutUserExts",
+      "explicitPlaform": "mac",
+      "key": "Ctrl-Cmd-R"
+    }
+  }
+}
